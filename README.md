@@ -2,7 +2,7 @@
 some general notes and approaces on deep image prior
 
 ## paper notes
-1) the structure of a generator network is sufficient to  capture imae statistics 
+1) the structure of a generator network is sufficient to capture image statistics 
 2) INVERSE PROBLEMS, randomly initialized network can be used as prior
 3) THE STRUCTURE OF THE NETWORK MUST RESONATE WITH THE STRUCTURE OF THE DATA
 4) you need a generator network 
