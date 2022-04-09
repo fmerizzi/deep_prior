@@ -11,7 +11,10 @@ some general notes and approaces on deep image prior
 2) updating with a comparison to the original image, super resolution is reasonable 
 3) a network untrained descends much faster towards a "real" image rather than random noise.
 4) in inpainting, I'm just calculating the loss on the non-mask pixels! sounds pretty reasonable!
-5) 
+5) in general I should tune the network for every specific image.. 
+6) for LARGE HOLE INPAINTING, an inizialization with meshgrid gradient rather than uniform noise 
+7) noise based regularization, perturb the input 
+9) __the convolutional operation impose self-similarity on the generated images__
 
 
 
